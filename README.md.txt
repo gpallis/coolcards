@@ -1,0 +1,1 @@
+Coolcards is a website that lets you vote on Magic: The Gathering cards.

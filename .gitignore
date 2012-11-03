@@ -1,0 +1,9 @@
+*~
+*.pyc
+*.swp
+.idea
+build
+dist
+*.egg
+*.jar
+coolcards/settings.py
