@@ -1,0 +1,75 @@
+[
+    {
+        "pk": 1, 
+        "model": "cards.card", 
+        "fields": {
+            "votes": 0, 
+            "name": "Sorrow's Path", 
+            "elo": 0
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "cards.card", 
+        "fields": {
+            "votes": 0, 
+            "name": "Bitterblossom", 
+            "elo": 1700
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "cards.card", 
+        "fields": {
+            "votes": 10, 
+            "name": "Jace, The Mind Sculptor", 
+            "elo": 2000
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "cards.card", 
+        "fields": {
+            "votes": 8, 
+            "name": "Ultimate Price", 
+            "elo": 1000
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "cards.card", 
+        "fields": {
+            "votes": 6, 
+            "name": "Trostani, Selesnya's Voice", 
+            "elo": 1400
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "cards.card", 
+        "fields": {
+            "votes": 12, 
+            "name": "Craterize", 
+            "elo": 400
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "cards.card", 
+        "fields": {
+            "votes": 4, 
+            "name": "Launch Party", 
+            "elo": 800
+        }
+    },
+    {
+        "pk": 8, 
+        "model": "cards.card", 
+        "fields": {
+            "votes": 4, 
+            "name": "Giant Growth", 
+            "elo": 800
+        }
+    }
+
+]
