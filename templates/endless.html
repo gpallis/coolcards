@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>yeah</title>
+<script src ="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
+<script src="{{STATIC_URL}}coolcards/script/jquery-ui.scrollAppend.js"></script>
+
+<script>
+ $(window).scrollAppend({
+    url: 'endless-leaderboard',
+    params: { },
+    appendTo: "#bab"
+});
+ </script>
+
+</head>
+<body>
+<p>Yess....</p>
+<p id="bab" style='word-wrap:break-word'>{{babble}}</p>
+</body>
+</html>

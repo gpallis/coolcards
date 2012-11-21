@@ -1,9 +1,7 @@
-<html>
-<head>
-    <link rel="stylesheet" href="{{STATIC_URL}}coolcards/css/vote.css">    
-    <title>Vote on the Coolest Magic: The Gathering Cards</title>
-</head>
-<body background='{{STATIC_URL}}coolcards/images/debut_light.png'>
+{% extends "base.html" %}  
+    {% block title %}Vote on the Coolest Magic: The Gathering Cards{% endblock %}
+    {% block background %}'{{STATIC_URL}}coolcards/images/debut_light.png'{% endblock %}
+    {% block body %}
     <div class = 'feedback_box'>
         <span>{{vote_feedback}}</span>
     </div>
@@ -28,5 +26,4 @@
             </div>
         </div>
     </form>
-</body>
-</html>
+    {% endblock %}

@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block background %}'{{STATIC_URL}}coolcards/images/debut_light.png'{% endblock %}
+{% block body %}
+<div id='container' style = 'padding-left:30px; padding-right:30px;text-align:justify'>
+<p class="FAQ-strapline">The Coolest Cards of Magic: The Gathering</p>
+<p class = "FAQ-question">What's this site about?</p>
+<p class = "FAQ-answer">This site was created to as a way to celebrate - and rate - the very coolest cards that Magic: The Gathering has to offer. It's open
+to anyone who plays Magic, from kitchen-table newbies to PTQ grinders and everyone in between.</p>
+
+<p class = "FAQ-question">What do you mean by cool?</p>
+<p class = "FAQ-answer">Whatever you want it to mean! Some might cherish the sheer power of Jace or Jitte, while to other players a versatile engine like
+Birthing Pod is far more interesting. Still others might be moved by a tremendous flavour win such as Army of Damned, a unique oddity like Dryad Arbor, or the
+the awesome impact of dropping a Craterhoof Behemoth onto the table. We'd like to give all of these cards a chance to strut their stuff, outside of
+the rigid selectivity of the competitive metagame.
+
+<p class = "FAQ-question">Why haven't you included my favourite card?</p>
+<p class = "FAQ-answer">Efforts have been made to include awesome cards for every sort of player, but there's no accounting for taste! Some deliberate choices,
+however, were to restrict the card pool to the Modern era, and to exclude cards such as Lightning Bolt whose primary appeal lies entirely with their raw power
+relative to their cost; there are plenty of other sites on which such cards can win their plaudits, along with the whole field of competitive magic.</p>
+
+<p class = "FAQ-question">No, but seriously, you should include my favourite card.</p>
+<p class = "FAQ-answer">Maybe you're right! Feel free to email suggestions to me here.</p>
+
+<p class = "FAQ-question">What next?</p>
+<p class = "FAQ-answer">I'll keep updating the site with awesome cards from future sets as they get printed. For now, check out the <a href="{% url leaderboard %}">
+leaderboard</a> or <a href="{% url vote %}">get voting</a>.
+</div>
+{% endblock %}

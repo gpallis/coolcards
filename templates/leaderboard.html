@@ -1,13 +1,18 @@
-<html>
-<head>
-    <title>The Coolest Cards in Magic: The Gathering</title>
-    <link rel="stylesheet" href="{{STATIC_URL}}coolcards/css/leaderboard.css">
-</head>
-<body>
-    <table border=1>
-        {% for card in cards %}
-        <tr><td WIDTH = "10%"><img src="{{card.pic_url}}" height=200/><td VALIGN="top"><p class="card-name-and-number">{{forloop.counter}}. &nbsp;{{card.name}}</p></td></tr>
-        {% endfor %}
-    </table>
-</body>
-</html>
+{% extends 'base.html' %}
+    {% block title %}The Coolest Cards in Magic: The Gathering{% endblock %}
+    {% block extra-scripts %}
+        <script src="{{STATIC_URL}}coolcards/script/jquery-ui.scrollAppend.js"></script>    
+        <script>
+            $(window).scrollAppend({
+            url: 'leaderboard',
+            params: {  },
+            appendTo: "#container",
+            pixelBuffer: 500,
+            });
+        </script>
+    {% endblock %}
+    {% block body %}
+        <div id = "container">
+        {% include "leaderboard_table.html" %}
+        </div>
+    {% endblock %}

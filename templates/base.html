@@ -1,0 +1,18 @@
+<html>
+<head>
+<link rel="stylesheet" href="{{STATIC_URL}}coolcards/css/base.css">
+{% block stylesheet%}{% endblock %}
+<script src ="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
+{% block extra-scripts %}{% endblock %}
+<title>{% block title %}The Coolest Cards in Magic: The Gathering{% endblock %}</title>
+</head>
+<body background={% block background %}{% endblock %}>
+    <div class = 'link_box'>
+        <a href="{% url vote %}">Vote</a> &bull; <a href="{% url leaderboard %}">Leaderboard</a> &bull; <a href="{% url faq %}">FAQ</a>
+    </div>
+    {% block body %}
+    {% endblock %}
+</body>
+</html>
+
