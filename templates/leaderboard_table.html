@@ -1,7 +1,7 @@
 <table border=1>
     {% for card in cards %}
     <tr>
-    <td WIDTH = "10%"><img src="{{STATIC_URL}}coolcards/images/cards/{{card.get_pic_name}}" height=200/>
+    <td WIDTH = "10%"><img src="{{STATIC_URL}}coolcards/images/cards/{{card.get_pic_name}}" height=205/>
     <td VALIGN="top">
         <p class="card-name-and-number">{{forloop.counter0|add:cards.start_index}}. &nbsp;{{card.name}}</p>
         <!--start_index is 1-indexed, so counter needs to be 0-indexed-->

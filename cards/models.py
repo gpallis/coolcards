@@ -8,7 +8,7 @@ class Card(models.Model):
     name = models.CharField(max_length=200)
     elo = models.IntegerField(default=1000)
     votes = models.IntegerField(default=0)
-    pic_url = models.CharField(max_length=200)
+    
     def __unicode__(self):
         return self.name
     class Meta:
@@ -18,6 +18,8 @@ class Card(models.Model):
         hyphenated = re.sub(' ','-',lowercase)
         final = re.sub('[,\']','',hyphenated)
         return final + ".jpg"
+    def admin_definition(self):
+        return "The grey is sky - <a href='http://www.google.com'>blue</a>"
     def get_oracle_data(self):
         return Oracle.objects.get(name=self.name)
     def get_html_bio(self):
@@ -32,9 +34,17 @@ class Card(models.Model):
         ruleslines = rules.split("\n")
         for line in ruleslines:
             finalText += '<p class="card-rules">' + line + '</p>'
+        #handle phyrexian mana case {(G/P)} -> {GP}
+        finalText = re.sub('(\((W|G|U|R|B)/P\))',r'\2P',finalText)
+        #handle hybrid mana case {(G/W))} -> {GW}
+        finalText = re.sub('(\((W|G|U|R|B)/(W|G|U|R|B)\))',r'\2\3',finalText)
+        #replace mana (and similar) symbols
         finalText = re.sub(
-            '{(.)}', ('<img src="' + settings.STATIC_URL + 'coolcards/images/symbols/-' + r'\1' + '-.png" style="vertical-align:-2">'),
+            '{(.*?)}', ('<img src="' + settings.STATIC_URL + 'coolcards/images/symbols/-' + r'\1' + '-.png" style="vertical-align:-2">'),
             finalText)
+        #italicize brackets
+        finalText = re.sub('\((.*)\)','<span style="font-style:italic">('+ r'\1' +')</span>',finalText)
+        
         return finalText
     def get_pt_string(self):
         my_oracle = self.get_oracle_data()
@@ -47,7 +57,7 @@ class Oracle(models.Model):
     #Oracle entries for cards.
     name = models.CharField(max_length = 200)
     type = models.CharField(max_length = 200)
-    rules = models.CharField(max_length = 2500, null=True)
+    rules = models.TextField(max_length = 2500, null=True)
     power = models.CharField(max_length = 20, null=True) #char not int used to forestall '0.5, *, *+1, etc
     toughness = models.CharField(max_length = 20, null=True)
     def __unicode__(self):
@@ -57,7 +67,7 @@ class Oracle(models.Model):
     
 def saveAllOracles():
     print "hello!"
-    tree = ET.parse("/myRootFiles/cardlist_truncated.xml")
+    tree = ET.parse("/myRootFiles/cardlist_modern.xml")
     root = tree.getroot()
     
     cards = root.findall('cards/card')

@@ -14,14 +14,14 @@
                     {% csrf_token %}
                     <input type="hidden" name = "voted_for" value = "{{firstcard.name}}">
                     <input type="hidden" name = "voted_against" value = "{{secondcard.name}}">    
-                    <input type='image' class='card_left' src='{{firstcard.pic_url}}'/>
+                    <input type='image' class='card_left' src='{{STATIC_URL}}coolcards/images/cards/{{firstcard.get_pic_name}}'/>
                 </form>
             </div><div class='card_holder'>
                 <form method='post'>
                     {% csrf_token %}
                     <input type="hidden" name = "voted_for" value = "{{secondcard.name}}">
                     <input type="hidden" name = "voted_against" value = "{{firstcard.name}}">    
-                    <input type='image' class='card_right' src='{{secondcard.pic_url}}'/>
+                    <input type='image' class='card_right' src='{{STATIC_URL}}coolcards/images/cards/{{secondcard.get_pic_name}}'/>
                 </form>
             </div>
         </div>

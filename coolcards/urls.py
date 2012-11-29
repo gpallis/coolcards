@@ -5,7 +5,7 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     # Examples:
-    url(r'^$', 'leaderboard.views.leaderboard', name='home' ),
+    url(r'^$', 'cards.views.vote', name='home' ),
     url(r'^leaderboard/', 'leaderboard.views.leaderboard', name='leaderboard'),
     url(r'^vote/$', 'cards.views.vote', name='vote'),
     url(r'^faq/$', 'django.views.generic.simple.direct_to_template', {'template':'faq.html'}, name='faq'),
