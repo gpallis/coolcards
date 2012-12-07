@@ -84,5 +84,5 @@ def handle_voting(request):
     loser.save()
     
     #now, log the vote
-    vote_data = Vote(voter=request.META['REMOTE_ADDR'],voted_for=winner,voted_against=loser)
+    vote_data = Vote(voter=request.META['HTTP_X_FORWARDED_FOR'],voted_for=winner,voted_against=loser)
     vote_data.save()
