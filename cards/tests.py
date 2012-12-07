@@ -55,8 +55,10 @@ class SimpleTest(TestCase):
         response = self.client.get('/leaderboard/')
         return self.assertContains(response, 'Legendary Creature')
     def test_leaderboard_showing_pt(self):
+        new_card = Card(name='Kraken Hatchling',elo='9999',votes=10)
+        new_card.save()
         response = self.client.get('/leaderboard/')
-        return self.assertContains(response, '[6/6]')
+        return self.assertContains(response, '[0/4]')
     def test_new_card(self):
         new_card = Card(name='Cobblebrute',elo='9999',votes=5)
         new_card.save()

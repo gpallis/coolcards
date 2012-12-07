@@ -1,11 +1,164 @@
 [
     {
+        "pk": 141, 
+        "model": "cards.card", 
+        "fields": {
+            "votes": 2, 
+            "name": "Godhead of Awe", 
+            "elo": 1118
+        }
+    }, 
+    {
+        "pk": 114, 
+        "model": "cards.card", 
+        "fields": {
+            "votes": 2, 
+            "name": "Mayael the Anima", 
+            "elo": 1118
+        }
+    }, 
+    {
+        "pk": 34, 
+        "model": "cards.card", 
+        "fields": {
+            "votes": 1, 
+            "name": "Army of the Damned", 
+            "elo": 1060
+        }
+    }, 
+    {
+        "pk": 21, 
+        "model": "cards.card", 
+        "fields": {
+            "votes": 1, 
+            "name": "Doubling Season", 
+            "elo": 1060
+        }
+    }, 
+    {
+        "pk": 23, 
+        "model": "cards.card", 
+        "fields": {
+            "votes": 1, 
+            "name": "Endless Swarm", 
+            "elo": 1060
+        }
+    }, 
+    {
+        "pk": 81, 
+        "model": "cards.card", 
+        "fields": {
+            "votes": 1, 
+            "name": "Hellcarver Demon", 
+            "elo": 1060
+        }
+    }, 
+    {
+        "pk": 89, 
+        "model": "cards.card", 
+        "fields": {
+            "votes": 1, 
+            "name": "Infinite Reflection", 
+            "elo": 1060
+        }
+    }, 
+    {
         "pk": 100, 
         "model": "cards.card", 
         "fields": {
             "votes": 1, 
             "name": "Jin-Gitaxias, Core Augur", 
             "elo": 1060
+        }
+    }, 
+    {
+        "pk": 110, 
+        "model": "cards.card", 
+        "fields": {
+            "votes": 1, 
+            "name": "Kiki-Jiki, Mirror Breaker", 
+            "elo": 1060
+        }
+    }, 
+    {
+        "pk": 125, 
+        "model": "cards.card", 
+        "fields": {
+            "votes": 1, 
+            "name": "Phyrexian Metamorph", 
+            "elo": 1060
+        }
+    }, 
+    {
+        "pk": 118, 
+        "model": "cards.card", 
+        "fields": {
+            "votes": 1, 
+            "name": "Platinum Angel", 
+            "elo": 1060
+        }
+    }, 
+    {
+        "pk": 143, 
+        "model": "cards.card", 
+        "fields": {
+            "votes": 1, 
+            "name": "Precursor Golem", 
+            "elo": 1060
+        }
+    }, 
+    {
+        "pk": 105, 
+        "model": "cards.card", 
+        "fields": {
+            "votes": 1, 
+            "name": "Profane Command", 
+            "elo": 1060
+        }
+    }, 
+    {
+        "pk": 121, 
+        "model": "cards.card", 
+        "fields": {
+            "votes": 1, 
+            "name": "Sen Triplets", 
+            "elo": 1060
+        }
+    }, 
+    {
+        "pk": 99, 
+        "model": "cards.card", 
+        "fields": {
+            "votes": 1, 
+            "name": "Urabrask the Hidden", 
+            "elo": 1060
+        }
+    }, 
+    {
+        "pk": 140, 
+        "model": "cards.card", 
+        "fields": {
+            "votes": 1, 
+            "name": "Vexing Shusher", 
+            "elo": 1060
+        }
+    }, 
+    {
+        "pk": 111, 
+        "model": "cards.card", 
+        "fields": {
+            "votes": 2, 
+            "name": "Kozilek, Butcher of Truth", 
+            "elo": 1001
+        }
+    }, 
+    {
+        "pk": 96, 
+        "model": "cards.card", 
+        "fields": {
+            "votes": 2, 
+            "name": "Tamiyo, the Moon Sage", 
+            "elo": 1001
         }
     }, 
     {
@@ -23,24 +176,6 @@
         "fields": {
             "votes": 0, 
             "name": "Archangel of Strife", 
-            "elo": 1000
-        }
-    }, 
-    {
-        "pk": 137, 
-        "model": "cards.card", 
-        "fields": {
-            "votes": 0, 
-            "name": "Archmage Ascension", 
-            "elo": 1000
-        }
-    }, 
-    {
-        "pk": 34, 
-        "model": "cards.card", 
-        "fields": {
-            "votes": 0, 
-            "name": "Army of the Damned", 
             "elo": 1000
         }
     }, 
@@ -216,24 +351,6 @@
         }
     }, 
     {
-        "pk": 39, 
-        "model": "cards.card", 
-        "fields": {
-            "votes": 0, 
-            "name": "Doran, the Siege Tower", 
-            "elo": 1000
-        }
-    }, 
-    {
-        "pk": 21, 
-        "model": "cards.card", 
-        "fields": {
-            "votes": 0, 
-            "name": "Doubling Season", 
-            "elo": 1000
-        }
-    }, 
-    {
         "pk": 139, 
         "model": "cards.card", 
         "fields": {
@@ -284,24 +401,6 @@
         "fields": {
             "votes": 0, 
             "name": "Elesh Norn, Grand Cenobite", 
-            "elo": 1000
-        }
-    }, 
-    {
-        "pk": 40, 
-        "model": "cards.card", 
-        "fields": {
-            "votes": 0, 
-            "name": "Emrakul, the Aeons Torn", 
-            "elo": 1000
-        }
-    }, 
-    {
-        "pk": 23, 
-        "model": "cards.card", 
-        "fields": {
-            "votes": 0, 
-            "name": "Endless Swarm", 
             "elo": 1000
         }
     }, 
@@ -387,29 +486,11 @@
         }
     }, 
     {
-        "pk": 30, 
-        "model": "cards.card", 
-        "fields": {
-            "votes": 0, 
-            "name": "Gigantomancer", 
-            "elo": 1000
-        }
-    }, 
-    {
         "pk": 35, 
         "model": "cards.card", 
         "fields": {
             "votes": 0, 
             "name": "Gisela, Blade of Goldnight", 
-            "elo": 1000
-        }
-    }, 
-    {
-        "pk": 141, 
-        "model": "cards.card", 
-        "fields": {
-            "votes": 0, 
-            "name": "Godhead of Awe", 
             "elo": 1000
         }
     }, 
@@ -423,29 +504,11 @@
         }
     }, 
     {
-        "pk": 80, 
-        "model": "cards.card", 
-        "fields": {
-            "votes": 0, 
-            "name": "Grimoire of the Dead", 
-            "elo": 1000
-        }
-    }, 
-    {
         "pk": 32, 
         "model": "cards.card", 
         "fields": {
             "votes": 0, 
             "name": "Griselbrand", 
-            "elo": 1000
-        }
-    }, 
-    {
-        "pk": 81, 
-        "model": "cards.card", 
-        "fields": {
-            "votes": 0, 
-            "name": "Hellcarver Demon", 
             "elo": 1000
         }
     }, 
@@ -473,24 +536,6 @@
         "fields": {
             "votes": 0, 
             "name": "Incendiary Command", 
-            "elo": 1000
-        }
-    }, 
-    {
-        "pk": 89, 
-        "model": "cards.card", 
-        "fields": {
-            "votes": 0, 
-            "name": "Infinite Reflection", 
-            "elo": 1000
-        }
-    }, 
-    {
-        "pk": 108, 
-        "model": "cards.card", 
-        "fields": {
-            "votes": 0, 
-            "name": "Iona, Shield of Emeria", 
             "elo": 1000
         }
     }, 
@@ -531,47 +576,11 @@
         }
     }, 
     {
-        "pk": 110, 
-        "model": "cards.card", 
-        "fields": {
-            "votes": 0, 
-            "name": "Kiki-Jiki, Mirror Breaker", 
-            "elo": 1000
-        }
-    }, 
-    {
-        "pk": 75, 
-        "model": "cards.card", 
-        "fields": {
-            "votes": 0, 
-            "name": "Koth of the Hammer", 
-            "elo": 1000
-        }
-    }, 
-    {
-        "pk": 111, 
-        "model": "cards.card", 
-        "fields": {
-            "votes": 0, 
-            "name": "Kozilek, Butcher of Truth", 
-            "elo": 1000
-        }
-    }, 
-    {
         "pk": 27, 
         "model": "cards.card", 
         "fields": {
             "votes": 0, 
             "name": "Leveler", 
-            "elo": 1000
-        }
-    }, 
-    {
-        "pk": 95, 
-        "model": "cards.card", 
-        "fields": {
-            "votes": 0, 
-            "name": "Liliana Vess", 
             "elo": 1000
         }
     }, 
@@ -617,24 +626,6 @@
         "fields": {
             "votes": 0, 
             "name": "Massacre Wurm", 
-            "elo": 1000
-        }
-    }, 
-    {
-        "pk": 113, 
-        "model": "cards.card", 
-        "fields": {
-            "votes": 0, 
-            "name": "Master of the Wild Hunt", 
-            "elo": 1000
-        }
-    }, 
-    {
-        "pk": 114, 
-        "model": "cards.card", 
-        "fields": {
-            "votes": 0, 
-            "name": "Mayael the Anima", 
             "elo": 1000
         }
     }, 
@@ -702,74 +693,11 @@
         }
     }, 
     {
-        "pk": 117, 
-        "model": "cards.card", 
-        "fields": {
-            "votes": 0, 
-            "name": "Obsidian Fireheart", 
-            "elo": 1000
-        }
-    }, 
-    {
-        "pk": 20, 
-        "model": "cards.card", 
-        "fields": {
-            "votes": 0, 
-            "name": "Painter's Servant", 
-            "elo": 1000
-        }
-    }, 
-    {
-        "pk": 125, 
-        "model": "cards.card", 
-        "fields": {
-            "votes": 0, 
-            "name": "Phyrexian Metamorph", 
-            "elo": 1000
-        }
-    }, 
-    {
-        "pk": 118, 
-        "model": "cards.card", 
-        "fields": {
-            "votes": 0, 
-            "name": "Platinum Angel", 
-            "elo": 1000
-        }
-    }, 
-    {
-        "pk": 119, 
-        "model": "cards.card", 
-        "fields": {
-            "votes": 0, 
-            "name": "Platinum Emperion", 
-            "elo": 1000
-        }
-    }, 
-    {
-        "pk": 143, 
-        "model": "cards.card", 
-        "fields": {
-            "votes": 0, 
-            "name": "Precursor Golem", 
-            "elo": 1000
-        }
-    }, 
-    {
         "pk": 106, 
         "model": "cards.card", 
         "fields": {
             "votes": 0, 
             "name": "Primal Command", 
-            "elo": 1000
-        }
-    }, 
-    {
-        "pk": 105, 
-        "model": "cards.card", 
-        "fields": {
-            "votes": 0, 
-            "name": "Profane Command", 
             "elo": 1000
         }
     }, 
@@ -783,38 +711,11 @@
         }
     }, 
     {
-        "pk": 135, 
-        "model": "cards.card", 
-        "fields": {
-            "votes": 0, 
-            "name": "Pyromancer Ascension", 
-            "elo": 1000
-        }
-    }, 
-    {
-        "pk": 2, 
-        "model": "cards.card", 
-        "fields": {
-            "votes": 0, 
-            "name": "Rakdos, Lord of Riots", 
-            "elo": 1000
-        }
-    }, 
-    {
         "pk": 104, 
         "model": "cards.card", 
         "fields": {
             "votes": 0, 
             "name": "Riku of Two Reflections", 
-            "elo": 1000
-        }
-    }, 
-    {
-        "pk": 121, 
-        "model": "cards.card", 
-        "fields": {
-            "votes": 0, 
-            "name": "Sen Triplets", 
             "elo": 1000
         }
     }, 
@@ -855,24 +756,6 @@
         }
     }, 
     {
-        "pk": 96, 
-        "model": "cards.card", 
-        "fields": {
-            "votes": 0, 
-            "name": "Tamiyo, the Moon Sage", 
-            "elo": 1000
-        }
-    }, 
-    {
-        "pk": 77, 
-        "model": "cards.card", 
-        "fields": {
-            "votes": 0, 
-            "name": "Tezzeret, Agent of Bolas", 
-            "elo": 1000
-        }
-    }, 
-    {
         "pk": 123, 
         "model": "cards.card", 
         "fields": {
@@ -900,24 +783,6 @@
         }
     }, 
     {
-        "pk": 8, 
-        "model": "cards.card", 
-        "fields": {
-            "votes": 0, 
-            "name": "Umezawa's Jitte", 
-            "elo": 1000
-        }
-    }, 
-    {
-        "pk": 99, 
-        "model": "cards.card", 
-        "fields": {
-            "votes": 0, 
-            "name": "Urabrask the Hidden", 
-            "elo": 1000
-        }
-    }, 
-    {
         "pk": 76, 
         "model": "cards.card", 
         "fields": {
@@ -936,29 +801,11 @@
         }
     }, 
     {
-        "pk": 140, 
-        "model": "cards.card", 
-        "fields": {
-            "votes": 0, 
-            "name": "Vexing Shusher", 
-            "elo": 1000
-        }
-    }, 
-    {
         "pk": 102, 
         "model": "cards.card", 
         "fields": {
             "votes": 0, 
             "name": "Vorinclex, Voice of Hunger", 
-            "elo": 1000
-        }
-    }, 
-    {
-        "pk": 73, 
-        "model": "cards.card", 
-        "fields": {
-            "votes": 0, 
-            "name": "Vraska the Unseen", 
             "elo": 1000
         }
     }, 
@@ -972,12 +819,165 @@
         }
     }, 
     {
+        "pk": 39, 
+        "model": "cards.card", 
+        "fields": {
+            "votes": 2, 
+            "name": "Doran, the Siege Tower", 
+            "elo": 998
+        }
+    }, 
+    {
+        "pk": 137, 
+        "model": "cards.card", 
+        "fields": {
+            "votes": 1, 
+            "name": "Archmage Ascension", 
+            "elo": 940
+        }
+    }, 
+    {
+        "pk": 30, 
+        "model": "cards.card", 
+        "fields": {
+            "votes": 1, 
+            "name": "Gigantomancer", 
+            "elo": 940
+        }
+    }, 
+    {
+        "pk": 80, 
+        "model": "cards.card", 
+        "fields": {
+            "votes": 1, 
+            "name": "Grimoire of the Dead", 
+            "elo": 940
+        }
+    }, 
+    {
+        "pk": 108, 
+        "model": "cards.card", 
+        "fields": {
+            "votes": 1, 
+            "name": "Iona, Shield of Emeria", 
+            "elo": 940
+        }
+    }, 
+    {
         "pk": 109, 
         "model": "cards.card", 
         "fields": {
             "votes": 1, 
             "name": "Kaalia of the Vast", 
             "elo": 940
+        }
+    }, 
+    {
+        "pk": 75, 
+        "model": "cards.card", 
+        "fields": {
+            "votes": 1, 
+            "name": "Koth of the Hammer", 
+            "elo": 940
+        }
+    }, 
+    {
+        "pk": 95, 
+        "model": "cards.card", 
+        "fields": {
+            "votes": 1, 
+            "name": "Liliana Vess", 
+            "elo": 940
+        }
+    }, 
+    {
+        "pk": 113, 
+        "model": "cards.card", 
+        "fields": {
+            "votes": 1, 
+            "name": "Master of the Wild Hunt", 
+            "elo": 940
+        }
+    }, 
+    {
+        "pk": 117, 
+        "model": "cards.card", 
+        "fields": {
+            "votes": 1, 
+            "name": "Obsidian Fireheart", 
+            "elo": 940
+        }
+    }, 
+    {
+        "pk": 20, 
+        "model": "cards.card", 
+        "fields": {
+            "votes": 1, 
+            "name": "Painter's Servant", 
+            "elo": 940
+        }
+    }, 
+    {
+        "pk": 119, 
+        "model": "cards.card", 
+        "fields": {
+            "votes": 1, 
+            "name": "Platinum Emperion", 
+            "elo": 940
+        }
+    }, 
+    {
+        "pk": 135, 
+        "model": "cards.card", 
+        "fields": {
+            "votes": 1, 
+            "name": "Pyromancer Ascension", 
+            "elo": 940
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "cards.card", 
+        "fields": {
+            "votes": 1, 
+            "name": "Rakdos, Lord of Riots", 
+            "elo": 940
+        }
+    }, 
+    {
+        "pk": 77, 
+        "model": "cards.card", 
+        "fields": {
+            "votes": 1, 
+            "name": "Tezzeret, Agent of Bolas", 
+            "elo": 940
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "cards.card", 
+        "fields": {
+            "votes": 1, 
+            "name": "Umezawa's Jitte", 
+            "elo": 940
+        }
+    }, 
+    {
+        "pk": 73, 
+        "model": "cards.card", 
+        "fields": {
+            "votes": 1, 
+            "name": "Vraska the Unseen", 
+            "elo": 940
+        }
+    }, 
+    {
+        "pk": 40, 
+        "model": "cards.card", 
+        "fields": {
+            "votes": 2, 
+            "name": "Emrakul, the Aeons Torn", 
+            "elo": 881
         }
     }, 
     {
@@ -20674,7 +20674,7 @@
         "pk": 14158, 
         "model": "cards.oracle", 
         "fields": {
-            "rules": "Level up {1}{U} ({1}{U}: Put a level counter on this. Level up only as a sorcery.)\nLEVEL 2-3\n2/4\n{U}{U}, {T}: Copy target instant or sorcery spell. You may choose new targets for the copy.\nLEVEL 4+\n2/5\n{U}{U}, {T}: Copy target instant or sorcery spell twice. You may choose new targets for the copies.", 
+            "rules": "Level up {1}{U} ({1}{U}: Put a level counter on this. Level up only as a sorcery.)\r\nLEVEL 2-3 [2/4]\r\n{U}{U}, {T}: Copy target instant or sorcery spell. You may choose new targets for the copy.\r\nLEVEL 4+ [2/5]\r\n{U}{U}, {T}: Copy target instant or sorcery spell twice. You may choose new targets for the copies.", 
             "type": "Creature - Human Wizard", 
             "name": "Echo Mage", 
             "power": "2", 
@@ -22148,7 +22148,7 @@
         "pk": 9990, 
         "model": "cards.oracle", 
         "fields": {
-            "rules": "Flying\nWhenever the fourth spell of a turn is cast, flip Erayo, Soratami Ascendant.\n-----\nErayo's Essence\nLegendary Enchantment\n/\nWhenever an opponent casts a spell for the first time in a turn, counter that spell.", 
+            "rules": "Flying\r\nWhenever the fourth spell of a turn is cast, flip Erayo, Soratami Ascendant.\r\n-----\r\nErayo's Essence - Legendary Enchantment\r\nWhenever an opponent casts a spell for the first time in a turn, counter that spell.", 
             "type": "Legendary Creature - Moonfolk Monk", 
             "name": "Erayo, Soratami Ascendant", 
             "power": "1", 
@@ -34358,7 +34358,7 @@
         "pk": 10012, 
         "model": "cards.oracle", 
         "fields": {
-            "rules": "Homura, Human Ascendant can't block.\nWhen Homura dies, return it to the battlefield flipped.\n-----\nHomura's Essence\nLegendary Enchantment\n2/2\n", 
+            "rules": "Homura, Human Ascendant can't block.\r\nWhen Homura dies, return it to the battlefield flipped.\r\n-----\r\nHomura's Essence - Legendary Enchantment\r\nCreatures you control get +2/+2 and have flying and \"{R}: This creature gets +1/+0 until end of turn.\"", 
             "type": "Legendary Creature - Human Monk", 
             "name": "Homura, Human Ascendant", 
             "power": "4", 
@@ -77984,7 +77984,7 @@
         "pk": 14308, 
         "model": "cards.oracle", 
         "fields": {
-            "rules": "Level up {1} ({1}: Put a level counter on this. Level up only as a sorcery.)\nLEVEL 6-11\n6/6\nLifelink\nLEVEL 12+\n9/9\nLifelink\nTranscendent Master is indestructible.", 
+            "rules": "Level up {1} ({1}: Put a level counter on this. Level up only as a sorcery.)\r\nLEVEL 6-11 [6/6]\r\nLifelink\r\nLEVEL 12+ [9/9]\r\nLifelink. Transcendent Master is indestructible.", 
             "type": "Creature - Human Cleric Avatar", 
             "name": "Transcendent Master", 
             "power": "3", 
